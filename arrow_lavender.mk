@@ -12,6 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/arrow/config/common.mk)
 
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 2160
+
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
