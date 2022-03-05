@@ -21,6 +21,9 @@ TARGET_BUILD_GRAPHENEOS_CAMERA = true
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 2160
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
