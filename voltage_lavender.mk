@@ -15,9 +15,6 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 # Official-ify
 VOLTAGE_BUILD_TYPE := OFFICIAL
 
-# GrapheneOS Camera
-TARGET_BUILD_GRAPHENEOS_CAMERA = true
-
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 2160
 
