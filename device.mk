@@ -16,8 +16,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libstdc++.vendor \
-    GoogleCameraGo
+    libstdc++.vendor
 
 # Consumerir
 BOARD_HAVE_IR := true
